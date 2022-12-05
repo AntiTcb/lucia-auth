@@ -1,6 +1,6 @@
 {
 	"name": "@lucia-auth/oauth",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "OAuth integration for Lucia",
 	"main": "index.js",
 	"types": "index.d.ts",
@@ -33,7 +33,8 @@
 		"./github": "./github.js",
 		"./google": "./google.js",
 		"./twitch": "./twitch.js",
-		"./patreon": "./patreon.js"
+		"./patreon": "./patreon.js",
+		"./discord": "./discord.js"
 	},
 	"typesVersions": {
 		"*": {
@@ -48,6 +49,9 @@
 			],
 			"patreon": [
 				"patreon.d.ts"
+			],
+			"discord": [
+				"discord.d.ts"
 			]
 		}
 	},
